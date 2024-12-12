@@ -14,9 +14,12 @@ For this assignment, you will write responses to nine questions based on differe
 
 ### 1. [2.4] What is the difference between a Cartesian Product, a Natural Join, and Theta-Joins?
 
-A cartesian product is a tuple set where every tuple from one set joins with every tuple from another set.
-A Natural join is a join between two relations is joined on all mathcing attributes.
-Theta-joins are similar to natural joins, but are joined under one or more conditions.
+#### Cartesian product
+A cartesian product is a tuple set where every tuple from one set joins with every tuple from another set. If there are any attributes in both sets with the same name, thaen the reulting set will have one or both of them renamed to avoid ambiguity. If the set R has r number of tuples, and set S has s number of tuples, then the resulting set Q has a number of records q = r*s.
+#### Natural Join
+A Natural Join pairs two tuple sets on matching attributes. The resulting set will contain tuples from two tuple sets where a tuple from each set has identical values in all matching attributes of another set. Unlike Cartesian Product, common attributes will appear only once in the resulting set. The maximum number of tuples in the Natural Join between set R with r tuples, and set S with s tuples is q=r*s, just like in a Cartesian Product. However, the minimum number of tuples resulting from the Natural Join is zero, if there are no common values in matching attributes or no common attributes at all. The dangling tuple in a tuple set is considered a tuple that is not paired with another set. 
+#### Theta Join
+While Natural Join pairs tuples from relation sets based on common values in all common attributes, the join performed on other conditions are called Theta Joins. This condition can be any arbritrary condition set for a join. It does not require common attributes. The resulting set from a Theta Join will include attribues from both relations, some of which will need to be renamed to avoid ambiguity just like in a Cartesian Product. Just like in a Natural Join, the minimum number of tuples in the result set is zero. The join condition can be specified as any bollean condition, or any combination of boolean conditions possibly related to different attributes from each set. 
 
 ### 2. [2.5] What is a Referential Integrity Constraint?
 
