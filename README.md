@@ -20,7 +20,7 @@ Theta-joins are similar to natural joins, but are joined under one or more condi
 
 ### 2. [2.5] What is a Referential Integrity Constraint?
 
-Replace this content with your answer
+A referential integrity constraint is where one tuple of a relation appears in another related tuple of a different relation.
 
 ###  3. [2.5] What is a Key Constraint?
 
