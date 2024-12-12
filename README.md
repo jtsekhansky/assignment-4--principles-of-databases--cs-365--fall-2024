@@ -14,15 +14,17 @@ For this assignment, you will write responses to nine questions based on differe
 
 ### 1. [2.4] What is the difference between a Cartesian Product, a Natural Join, and Theta-Joins?
 
-Replace this content with your answer
+A cartesian product is a tuple set where every tuple from one set joins with every tuple from another set.
+A Natural join is a join between two relations is joined on all mathcing attributes.
+Theta-joins are similar to natural joins, but are joined under one or more conditions.
 
 ### 2. [2.5] What is a Referential Integrity Constraint?
 
-Replace this content with your answer
+A referential integrity constraint is where one tuple of a relation appears in another related tuple of a different relation.
 
 ###  3. [2.5] What is a Key Constraint?
 
-Replace this content with your answer
+A key constraint does not allow an attribute of two or more tuples to have the same value.
 
 ### 4. [4.1] What is an Entity/Relationship Model? What purpose does it serve in the process of creating/designing databases?
 
