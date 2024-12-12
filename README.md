@@ -24,7 +24,7 @@ A referential integrity constraint is where one tuple of a relation appears in a
 
 ###  3. [2.5] What is a Key Constraint?
 
-Replace this content with your answer
+A key constraint does not allow an attribute of two or more tuples to have the same value.
 
 ### 4. [4.1] What is an Entity/Relationship Model? What purpose does it serve in the process of creating/designing databases?
 
