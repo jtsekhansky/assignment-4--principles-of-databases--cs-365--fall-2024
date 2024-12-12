@@ -23,7 +23,7 @@ While Natural Join pairs tuples from relation sets based on common values in all
 
 ### 2. [2.5] What is a Referential Integrity Constraint?
 
-A referential integrity constraint is where one tuple of a relation appears in another related tuple of a different relation.
+A referential integrity constraint guarantees that a value appearing in a specific tuple in the attribute or attribute set also appears in the related context. For instance, if we have two relations R with an attribute a and S with an attribute b, a referential integrity constraint can be set so for each tuple in R a value of attribute a appears in a tuple of relation S in attribute b. In relational algebra, it can be written as PIa(R)-PIb(S) = 0. The referential integrity constraint may also include multiple attributes. In practice, the attributes of S that are being pointed by the referential integrity constraint of R are usually primary keys of S.
 
 ###  3. [2.5] What is a Key Constraint?
 
