@@ -27,7 +27,7 @@ A referential integrity constraint guarantees that a value appearing in a specif
 
 ###  3. [2.5] What is a Key Constraint?
 
-A key constraint does not allow an attribute of two or more tuples to have the same value.
+A key constraint does not allow an attribute set of two or more tuples of the same relation to have the same value set. The key constraint can be expressed algebraically using SIGMA constraint notaion. The other attributes that are not part of the key may have matching values in different tuples.
 
 ### 4. [4.1] What is an Entity/Relationship Model? What purpose does it serve in the process of creating/designing databases?
 
