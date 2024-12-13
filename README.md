@@ -39,7 +39,21 @@ A weak entity set is an entity set whose key is composed of one or more attribut
 
 ### 6. [5.2.7; 6.3.8] Explain the concepts of Outerjoin, Natural Right Outer Joins, Natural Left Outer Joins, and Full Outer Joins.
 
-Replace this content with your answer
+#### Outerjoin
+
+The Outerjoin is a way to represent dangling tuples in the tuple set resulting from a join. Joins that are not Outerjoins does not include any values for dangling tuples, while Outerjoins include tuples that are made by combining dangling tuples with NULL values in an attribute set from another entity in a join. Different types of Outerjoins indicate which entity set(s) will have dangling tuples representd in the result of the join.
+
+#### Natural Right Outerjoin
+
+The Natural Right Outerjoin includes the tuples from Natural Join as well as dangling tuples from the right side combined with NULLs for all attribute values representing the left side of the join.
+
+#### Natural Left Outerjoin
+
+The Natural Left Outerjoin includes the tuples from Natural Join as well as dangling tuples from the left side combined with NULLs for all attribute values representing the right side of the join.
+
+#### Full Outerjoin
+
+A Full Outerjoin includes the combination of related tuples as well as dangling tuples from each side combined with Null values for all attributes representing the other side of the join. In some way, it is a combination of the right and left Outerjoin.
 
 ### 7. [6.6.3] What is the difference between the SQL command `TRANSACTION` and the execution of any statement in SQL?
 
